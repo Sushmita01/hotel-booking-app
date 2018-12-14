@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="app-container">
+    <div class="instruction-header">
+      <div class="header-icon-container"><img [src]=people_icon alt="users icon"/></div>
+      <div class="header-label">Choose number of <span>people</span></div>
+    </div>
+    <div class="app-functionality">
+      <div *ngFor="let tab of tabs;let i=index" class="tab">
+        <div class="label">
+          <div><img [src]=tab.icon class="label-icon" alt="{{tab.key+' tab icon'}}"/></div>
+          <div class="label-text">{{tab.label}}</div>
+        </div>
+        <div class="counter-container">
+          <div class="minus" (click)="decreaseCount(i)"><img class="action-circle" [src]="getMinusIcon(i)" alt="header people icon"/></div>
+          <div class="count">{{tab.count}}</div>
+          <div class="plus" (click)="increaseCount(i)"><img class="action-circle" [src]="((idx==0) ? roomIncreaseDisabled : ((idx==1) ? adultIncreaseDisabled : childIncreaseDisabled)) ? disabled_plus_icon : plus_icon" alt="header people icon"/></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
