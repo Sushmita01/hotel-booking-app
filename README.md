@@ -1,4 +1,5 @@
 # Hotel Booking Component
+An application containing a reusable smart booking component which lets the user book rooms while within a set of booking constraints. Manipulates data in a logical way since it does not allow any invalid combination of data on the screen at any point.
 
 ## Running the application 
 
