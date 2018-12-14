@@ -1,10 +1,12 @@
 # BookingDashboard
 
+#Running the application 
+
 To run this application
-<ul> Download this repository
-<ul> Install Node.js and Angular
-<ul> Run the developmemt server by typing `ng serve` in the node command prompt. 
-<ul>Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Download this repository
+* Install Node.js and Angular
+* Run the developmemt server by typing `ng serve` in the node command prompt. 
+* Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Running unit tests
 
