@@ -1,6 +1,6 @@
-# BookingDashboard
+# Hotel Booking Component
 
-#Running the application 
+## Running the application 
 
 To run this application
 * Download this repository
